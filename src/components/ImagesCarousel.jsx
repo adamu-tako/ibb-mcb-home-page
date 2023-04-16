@@ -7,10 +7,10 @@ function ImagesCarousel({ data }) {
   };
 
   return (
-    <div className="w-[100%] mx-12 h-[fit-content] display-[inline-block]">
+    <div className="w-[100%] mx-0 md:mx-12 h-[fit-content] display-[inline-block]">
       <Carousel
         data={data}
-        time={2000}
+        time={5000}
         width="100%"
         height="70%"
         radius="10px"

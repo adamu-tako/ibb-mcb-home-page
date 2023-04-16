@@ -1,7 +1,8 @@
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <div className="">
-      <footer className="rounded-lg w-[97vw] p-12 px-10">
+      <footer className="rounded-lg bg-slate-200 w-[full] p-12 px-10 pt-[4rem]">
         <div className="grid place-items-center sm:flex sm:items-center sm:justify-between">
           <a href="/">
             <span className="font-mono font-semibold text-base">
@@ -48,7 +49,7 @@ const Footer = () => {
         </div>
         <hr className="border-green-500 lg:my-8" />
         <span className="margin grid place-items-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2022{" "}
+          © {year}{" "}
           <a href="https://ibbu.edu.ng" className="hover:underline">
             IBBUL Microbiology Dept™
           </a>

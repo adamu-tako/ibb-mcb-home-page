@@ -1,6 +1,5 @@
 import "tw-elements";
 import ImagesCarousel from "./ImagesCarousel";
-import Overview from "./Overview";
 
 const NewsCarousel = () => {
   const images = [
@@ -20,10 +19,10 @@ const NewsCarousel = () => {
   return (
     <>
       <div className="flex flex-col w-full sm:flex-row mt-5">
-        <div className="w-[60%] h-[100%] ">
+        <div className="-z-1 md:w-[60%] w-full h-fit md:h-[100%] ">
           <ImagesCarousel data={images} />
         </div>
-        <div className="border-green-300 border ml-16 w-[25%] mt-6 h-fit bg-slate-400 flex flex-col gap-2 p-2">
+        <div className="ml-0 md:ml-16 w-[95%] md:w-[25%] mt-6 h-fit bg-slate-50 flex flex-col gap-2 p-2">
           <ul>
             <header>
               <h2 className="text-black font-bold underline text-lg">
@@ -47,9 +46,6 @@ const NewsCarousel = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="mt-10 w-[80%] ml-10">
-        <Overview />
       </div>
     </>
   );

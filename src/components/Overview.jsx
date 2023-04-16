@@ -1,6 +1,6 @@
 const Overview = () => {
   return (
-    <div className="h-fit">
+    <div className="h-fit w-[90%] md:w-[70%] mx-auto my-[5rem]">
       <p>
         Microbiology is the study of the biology of microscopic organisms -
         viruses, bacteria, algae, fungi, slime molds, and protozoa. The methods
