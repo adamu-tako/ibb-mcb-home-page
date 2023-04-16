@@ -1,6 +1,6 @@
 import abdul from "./images/Abdul.jpg";
 import aisha from "./images/aisha.jpg";
-import fati from "./images/fati.jpg";
+import fati from "./images/fatee.jpg";
 import Ndeji from "./images/Ndeji.png";
 import HOD from "./images/HOD.jpg";
 let mead = false;
